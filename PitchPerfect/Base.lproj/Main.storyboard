@@ -6,10 +6,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--RecordingView-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PitchPerfect" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="RecordingView" id="BYZ-38-t0r" customClass="ViewController" customModule="PitchPerfect" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -29,8 +29,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XIs-Ah-c2c">
-                                <frame key="frameInset" minX="100.5" minY="441" width="175" height="50"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XIs-Ah-c2c">
                                 <state key="normal" image="stopRecordButtonImage"/>
                                 <connections>
                                     <action selector="stopRecording:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3CW-VZ-uHC"/>
@@ -59,10 +58,10 @@
             </objects>
             <point key="canvasLocation" x="1076" y="127.28635682158921"/>
         </scene>
-        <!--View Controller-->
+        <!--PlaybackView-->
         <scene sceneID="Rgd-UD-KIy">
             <objects>
-                <viewController id="wNz-yV-OwS" sceneMemberID="viewController">
+                <viewController title="PlaybackView" id="wNz-yV-OwS" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ZGB-ap-f2t"/>
                         <viewControllerLayoutGuide type="bottom" id="vgU-BL-c3C"/>
